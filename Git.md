@@ -34,7 +34,7 @@ $ git config --list
 #### Connect to Remote Repo
 ```$ git remote add origin https://github.com/orgname/reponame.git```
 
-#### Verify Maping Remote Repo
+#### Remote Repo verify mapping 
 ```$ git remote -v```
 
 #### Clone Repo
@@ -55,10 +55,10 @@ $ git config --list
 #### Delete the last 2 Commits   
 ```$ git reset --hard  HEAD^^```
 
-#### Refresh 
+#### Refresh all changes to origin repo
 ```$ git push -f origin master```
 
-#### update all changes to local repo 
+#### Update all changes to local repo 
 ```$ git pull```
 
 
